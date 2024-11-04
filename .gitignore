@@ -175,7 +175,6 @@ pyrightconfig.json
 
 # End of https://www.toptal.com/developers/gitignore/api/python
 
-Dockerfile
 constants.py
 twitter_bot_venv/
 tar_pem_venv_check/
