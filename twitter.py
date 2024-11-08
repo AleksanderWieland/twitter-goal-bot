@@ -3,13 +3,13 @@ import random
 import constants
 
 # credentials to access Twitter API
-API_KEY= constants.API_KEY
-API_KEY_SECRET=constants.API_KEY_SECRET
+API_KEY= str(constants.API_KEY)
+API_KEY_SECRET=str(constants.API_KEY_SECRET)
 
-BEARER_TOKEN=constants.BEARER_TOKEN
+BEARER_TOKEN=str(constants.BEARER_TOKEN)
 
-ACCESS_TOKEN=constants.ACCESS_TOKEN
-ACCESS_TOKEN_SECRET=constants.ACCESS_TOKEN_SECRET
+ACCESS_TOKEN=str(constants.ACCESS_TOKEN)
+ACCESS_TOKEN_SECRET=str(constants.ACCESS_TOKEN_SECRET)
 
 
 # create an OAuthHandler instance

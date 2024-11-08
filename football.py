@@ -7,7 +7,7 @@ import constants
 def check_fixtures():
     url = "https://v3.football.api-sports.io/fixtures"
     headers = {
-        "x-rapidapi-key": constants.X_RAPIDAPI_KEY,
+        "x-rapidapi-key": str(constants.X_RAPIDAPI_KEY),
     }
     today = datetime.today().strftime('%Y-%m-%d')
     querystring = {"date": today}
@@ -41,7 +41,7 @@ def save_date_to_file(date_time):
 def check_fixture_events(fixture_id):
     url = "https://v3.football.api-sports.io/fixtures/events"
     headers = {
-        "x-rapidapi-key": constants.X_RAPIDAPI_KEY,
+        "x-rapidapi-key": str(constants.X_RAPIDAPI_KEY),
     }
     today = datetime.today().strftime('%Y-%m-%d')
     querystring = {"fixture": fixture_id}
