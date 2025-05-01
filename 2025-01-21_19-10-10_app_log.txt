@@ -1,6 +1,0 @@
-The file events_log.json does not exist.
-<Response [200]>
-get_match_data_by_team_id
-{'id': 1299092, 'referee': 'Donatas Rumsas, Lithuania', 'timezone': 'UTC', 'date': '2025-01-21T17:45:00+00:00', 'timestamp': 1737481500, 'periods': {'first': 1737481500, 'second': None}, 'venue': {'id': 879, 'name': 'Gewiss Stadium', 'city': 'Bergamo'}, 'status': {'long': 'First Half', 'short': '1H', 'elapsed': 25, 'extra': None}}
-Executing code at 2025-01-21T17:45:00+00:00!
-New events detected at 2025-01-21 19:10:10.839580: 1 new events
